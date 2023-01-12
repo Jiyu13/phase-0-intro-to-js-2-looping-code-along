@@ -48,8 +48,8 @@ function writeCards(names, event) {
 
 
 //  write a function, countDown, that takes in any positive integer 
-function countDown() {
-    let startFrom = 10;
+function countDown(startFrom) {
+
     while (startFrom >= 0) {
         console.log(startFrom);
         startFrom--;
@@ -57,4 +57,4 @@ function countDown() {
 }
 
 
-countDown()
+countDown(10)
